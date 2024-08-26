@@ -38,10 +38,10 @@ export default function InfiniteScroll({callback, hasMore, loading}: {
     } as CSSProperties
 
 
-    if (loading) return <div style={style}>Loading...</div>
+    if (loading) return <div style={style}>Загрузка...</div>
 
 
-    if (!hasMore) return <div style={style}>No more.</div>
+    if (!hasMore) return <div style={style}>На этом всё.</div>
 
     return <div ref={observerTarget} style={style}>...</div>
 }
