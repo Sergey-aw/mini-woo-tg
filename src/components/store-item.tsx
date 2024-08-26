@@ -16,8 +16,8 @@ export default function StoreItem({product}: { product: Product }) {
             >
                 <img
                     {...image}
-                    width={74}
-                    height={74}
+                    width={100}
+                    height={100}
                 />
                 <div className="store-product-label">
                     <span className="store-product-title">{product.name}</span>
