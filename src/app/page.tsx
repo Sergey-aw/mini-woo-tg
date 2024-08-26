@@ -77,9 +77,9 @@ export default function Home() {
             webApp?.BackButton.show()
 
         if (state.mode === "order")
-            webApp?.MainButton.setText("Оформить заказ")
+            webApp?.MainButton.setText("ОФОРМИТЬ ЗАКАЗ")
         else
-            webApp?.MainButton.setText("Заказ")
+            webApp?.MainButton.setText("ЗАКАЗ")
     }, [state.mode])
 
     useEffect(() => {
